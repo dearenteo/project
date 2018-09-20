@@ -22,8 +22,8 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('TOKEN')
-handler = WebhookHandler('SECRET')
+line_bot_api = LineBotApi('cTWmUANh7KGLR4Cxc86sr9cO8OBFBBhBL+C5jq0d+3t4IgtAVqE/Rd9YVA/NgjeuttBPAeJW5QBEFn5ur3wHRfEViZcScGhbg2NrEMaTNeC0+V6N64JUwOmEbnbAkd69yv/MZ/+8SzrISK7SsOnbAwdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('5e4444d3b86cf740212e7d8e8764a1fc')
 
 list_language = {
     "list_textToSpeech": {
